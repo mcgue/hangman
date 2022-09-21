@@ -7,6 +7,7 @@ import time
 
 # Start of game
 print('Let\'s play Hangman')
+name = input('Please enter your name: ')
 
 # Main module
 def main():
