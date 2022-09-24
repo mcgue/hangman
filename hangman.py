@@ -6,8 +6,9 @@ import random
 import time
 
 # Start of game
-print('Let\'s play Hangman')
-name = input('Please enter your name: ')
+print('Ready to play Hangman?')
+name = input('Then please enter your name: ')
+print('Welcome ' & name '. Let\s play!')
 
 # Main module
 def main():
