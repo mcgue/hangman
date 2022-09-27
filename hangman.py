@@ -13,9 +13,10 @@ time.sleep(1)
 print('Welcome ' + name + '. Let\s play!')
 time.sleep(2)
 
+count = 0
+
 # Main module
 def main():
-    global count
     global display
     global word
     global already_guessed
@@ -25,7 +26,6 @@ def main():
                    ,"plants"]
     word = random.choice(words_to_guess)
     length = len(word)
-    count = 0
     display = '_' * length
     already_guessed = []
     play_game = ""
