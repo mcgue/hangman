@@ -10,23 +10,22 @@ print('Ready to play Hangman?')
 time.sleep(1)
 name = input('Then please enter your name: ')
 time.sleep(1)
-print('Welcome ' + name + '. Let\s play!')
+print('Welcome ' + name + '. Let\'s play!')
 time.sleep(2)
 
 count = 0
+words_to_guess = ["january", "border", "image", "film", "promise", "kids", "lungs", "doll", "rhyme", "damage"
+    , "plants"]
+word = random.choice(words_to_guess)
+length = len(word)
+display = '_' * length
 
 # Main module
 def main():
-    global display
-    global word
     global already_guessed
     global length
     global play_game
-    words_to_guess = ["january","border","image","film","promise","kids","lungs","doll","rhyme","damage"
-                   ,"plants"]
-    word = random.choice(words_to_guess)
-    length = len(word)
-    display = '_' * length
+
     already_guessed = []
     play_game = ""
 
