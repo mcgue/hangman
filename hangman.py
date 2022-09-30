@@ -19,15 +19,11 @@ words_to_guess = ["january", "border", "image", "film", "promise", "kids", "lung
 word = random.choice(words_to_guess)
 length = len(word)
 display = '_' * length
+already_guessed = []
+play_game = ""
 
 # Main module
-def main():
-    global already_guessed
-    global length
-    global play_game
 
-    already_guessed = []
-    play_game = ""
 
 # Play module
 def play_loop():
@@ -135,9 +131,6 @@ def hangman():
 
     elif count != limit:
         hangman()
-
-
-main()
 
 
 hangman()
