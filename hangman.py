@@ -22,9 +22,6 @@ display = '_' * length
 already_guessed = []
 play_game = ""
 
-# Main module
-
-
 # Play module
 def play_loop():
     global play_game
