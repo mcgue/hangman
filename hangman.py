@@ -7,9 +7,9 @@ import time
 
 # Start of game
 print('Ready to play Hangman?')
-time.sleep(1)
-name = input('Then please enter your name: ')
-time.sleep(1)
+time.sleep(.5)
+name = input('Please enter your name: ')
+time.sleep(.75)
 print('Welcome ' + name + '. Let\'s play!')
 time.sleep(2)
 
