@@ -11,7 +11,7 @@ time.sleep(.5)
 name = input('Please enter your name: ')
 time.sleep(.75)
 print('Welcome ' + name + '. Let\'s play!')
-time.sleep(2)
+time.sleep(1)
 
 count = 0
 words_to_guess = ["january", "border", "image", "film", "promise", "kids", "lungs", "doll", "rhyme", "damage"
