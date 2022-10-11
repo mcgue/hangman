@@ -1,5 +1,6 @@
 # Hangman game based on
 # https://itsourcecode.com/free-projects/python-projects/hangman-game-in-python-with-source-code/
+# not opitmized. Just used for learning.
 
 # Import modules
 import random
