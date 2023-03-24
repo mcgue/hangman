@@ -1,3 +1,3 @@
 # Hangman Game
-## Completed for learning purposes.
-### Finished.
+## This game was used for learning Python.
+### Status: Finished
