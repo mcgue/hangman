@@ -1,3 +1,3 @@
 # hangman
-## Hangman game used to learn python
-#### Status: finished, update or expand?
+Hangman game used to learn python<br>
+Status: finished 
